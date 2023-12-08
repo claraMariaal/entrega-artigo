@@ -1,0 +1,51 @@
+main section{
+    background-color: green;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid black;
+}
+
+main h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p{
+    font-size: 16px;
+}
+/*Estilo para section de imagens */
+.test1{
+    border: 2px olid skyblue;
+    max-height: 400px; 
+}
+section{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin:20px 0;
+    border:2px solid blue;
+}
+section div{
+    border: 2px solid black;
+    flex: 1;
+    padding: 20px;
+}
+section img{
+    max-width: 100%;
+    height: auto;
+}
+.saiba-mais{
+    border: 2px skyblue;
+    display: incline-black;
+    background-color: bisque;
+    color:azure;
+    padding: 8px 16px;
+    border-radius: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.saiba-mais:hover{
+    color:black;
+    background-color:rgb(255, 127, 127);
+}
